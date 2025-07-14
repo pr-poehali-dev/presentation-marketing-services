@@ -290,13 +290,17 @@ export default function Index() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg">
-              <Icon name="Phone" className="mr-2" size={20} />
-              Получить консультацию
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg" asChild>
+              <a href="tel:+79644394369">
+                <Icon name="Phone" className="mr-2" size={20} />
+                Получить консультацию
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg">
-              <Icon name="Mail" className="mr-2" size={20} />
-              Написать в WhatsApp
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg" asChild>
+              <a href="https://t.me/art_and_group" target="_blank" rel="noopener noreferrer">
+                <Icon name="Send" className="mr-2" size={20} />
+                Написать в Telegram
+              </a>
             </Button>
           </div>
 
@@ -315,10 +319,10 @@ export default function Index() {
             </div>
           </div>
           
-          <div className="mt-8 pt-8 border-t border-blue-500">
-            <div className="text-center">
-              <div className="text-2xl font-bold mb-2">Yurkevich-Media</div>
-              <div className="text-lg opacity-80">Маркетинговое агентство полного цикла</div>
+          <div className="mt-8 pt-8 border-t border-blue-500 relative">
+            <div className="absolute bottom-0 right-0 text-right">
+              <div className="text-sm text-white/50 mb-1">Yurkevich-Media</div>
+              <div className="text-xs text-white/40">Маркетинговое агентство полного цикла</div>
             </div>
           </div>
         </div>
