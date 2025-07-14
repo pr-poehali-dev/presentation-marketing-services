@@ -110,7 +110,7 @@ export default function Index() {
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Ваш бизнес<br />
-              <span className="text-blue-600">не растет?</span>
+              <span className="text-blue-600">растет?</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Превратим ваши идеи в прибыльную стратегию.<br />
@@ -264,7 +264,7 @@ export default function Index() {
       </section>
 
       {/* CTA Section - Действие */}
-      <section className="py-20 px-4 bg-blue-600 text-white">
+      <section className="py-20 px-4 text-white bg-blue-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Готовы увеличить продажи?
@@ -287,11 +287,11 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 border-t border-blue-500">
             <div className="flex items-center justify-center space-x-3">
               <Icon name="Phone" size={24} />
-              <span className="text-lg">+7 (XXX) XXX-XX-XX</span>
+              <span className="text-lg">+7 (964) 439-43-69</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Icon name="Mail" size={24} />
-              <span className="text-lg">info@agency.com</span>
+              <span className="text-lg">info@yurkevich-media</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Icon name="MapPin" size={24} />
