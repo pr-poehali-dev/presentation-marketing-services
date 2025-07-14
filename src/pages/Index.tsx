@@ -90,7 +90,7 @@ export default function Index() {
     {
       icon: 'Users',
       title: 'Опыт',
-      description: 'Команда экспертов с опытом 5+ лет в маркетинге'
+      description: 'Команда экспертов с опытом 30+ лет в бизнесе'
     },
     {
       icon: 'Zap',
