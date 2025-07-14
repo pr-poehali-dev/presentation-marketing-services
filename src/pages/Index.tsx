@@ -101,22 +101,6 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-gray-900">
-            Yurkevich-Media
-          </div>
-          <div className="flex items-center space-x-6">
-            <Button variant="ghost" size="sm">Услуги</Button>
-            <Button variant="ghost" size="sm">О нас</Button>
-            <Button variant="ghost" size="sm">Контакты</Button>
-            <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
-              Связаться
-            </Button>
-          </div>
-        </div>
-      </header>
       {/* Hero Section - Внимание */}
       <section className="min-h-screen flex items-center justify-center px-4 py-20">
         <div className="max-w-6xl mx-auto text-center">
@@ -319,12 +303,7 @@ export default function Index() {
             </div>
           </div>
           
-          <div className="mt-8 pt-8 border-t border-blue-500 relative">
-            <div className="absolute bottom-0 right-0 text-right">
-              <div className="text-sm text-white/50 mb-1">Yurkevich-Media</div>
-              <div className="text-xs text-white/40">Маркетинговое агентство полного цикла</div>
-            </div>
-          </div>
+
         </div>
       </section>
     </div>
